@@ -30,7 +30,7 @@ RUN mkdir -p ${ANDROID_SDK_ROOT}/cmdline-tools \
 RUN yes | sdkmanager --licenses
 
 
-RUN sdkmanager "platform-tools" "platforms;android-33" "build-tools;34.0.0"
+RUN sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.1"
 
 #clean apt get
 RUN apt-get autoremove -y && \
