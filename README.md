@@ -29,7 +29,7 @@ docker run --rm --name node-android -it tkdps/node-android:1.0.0
 ```Dockerfile
 FROM tkdps/node-android:1.0.0
 ```
-- In a gitlab CI yaml file:
+- In a Gitlab CI yaml file:
 ```yaml
 image: tkdps/node-android:1.0.0
 ```
